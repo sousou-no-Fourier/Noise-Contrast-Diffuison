@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Runtime outputs (generated images, detection caches, results, logs, seeds)
+/outputs/*
+!/outputs/.gitkeep
+
+# Baseline / trained weights (user-provided, large) — keep the dir + its README
+/checkpoints/*
+!/checkpoints/.gitkeep
+!/checkpoints/README.md
+
+# Model / dataset caches
+.cache/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+*.swp
